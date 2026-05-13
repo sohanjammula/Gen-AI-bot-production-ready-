@@ -1,7 +1,7 @@
 import streamlit as st
-from ..services.gemini_service import GeminiService
-from ..prompts.prompt_manager import PromptManager
-from ..memory.session_memory import SessionMemory
+from app.services.gemini_service import GeminiService
+from app.prompts.prompt_manager import PromptManager
+from app.memory.session_memory import SessionMemory
 
 st.set_page_config(page_title="GenAI Career Chatbot", layout="wide")
 
